@@ -1,0 +1,23 @@
+.main__header {
+  background-color: var(--background-header);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img {
+  margin-top: 0;
+  width: 15%;
+  filter: drop-shadow(5px 5px 5px #2a313b);
+}
+
+@media (max-width:950px) {
+  .main__header {
+    height: 300px;
+  }
+
+  .header__img {
+    width: 300px;
+  }
+}
