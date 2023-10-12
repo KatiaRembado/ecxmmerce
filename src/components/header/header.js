@@ -6,7 +6,6 @@ function header() {
     `
     <img src="../../../src/assets/logo_blanco.png" alt="logo" class="header__img">
   `
-
 }
 
 export default header

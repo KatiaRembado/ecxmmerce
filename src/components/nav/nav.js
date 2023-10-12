@@ -22,10 +22,6 @@ function nav() {
   navImg.addEventListener('click', function () {
     window.scroll({ top: 0, left: 0, behavior: "smooth" })
   })
-
 }
-
-
-
 
 export default nav

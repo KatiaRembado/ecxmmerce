@@ -24,7 +24,6 @@
   transition: transform 0.33s;
 }
 
-
 .ul__div {
   display: flex;
   flex-direction: column;
@@ -73,5 +72,5 @@
 }
 
 .ul__li:hover .ul__img {
-  transform: translatex(3px); 
+  transform: translatex(3px);
 }

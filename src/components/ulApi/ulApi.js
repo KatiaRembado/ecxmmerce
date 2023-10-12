@@ -36,7 +36,6 @@ function ulApi() {
     } catch (error) {
       console.log(error);
     }
-
   }
 
   productsApi()

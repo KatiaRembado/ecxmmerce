@@ -112,7 +112,7 @@
 }
 
 .ul__button--div {
-  background-color:#2a313b;
+  background-color: #2a313b;
   filter: drop-shadow(5px 5px 5px rgba(171, 10, 72, 0.427));
   border-radius: 7px 7px;
   width: 300px;
@@ -161,7 +161,6 @@
   /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); */
   transition: filter 0.33s, transform 0.33s;
 }
-
 
 .ul__img--figure:hover {
   filter: drop-shadow(5px 5px 5px rgba(171, 10, 72, 0.427));
@@ -243,7 +242,6 @@
   .ul__div--buttons {
     justify-content: center;
   }
-
 }
 
 @media (max-width:550px) {

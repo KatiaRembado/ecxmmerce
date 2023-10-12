@@ -62,7 +62,6 @@ function detail() {
           
           `
           const divButtonSizes = document.querySelectorAll('.div__button--sizes')
-          //console.log(divButtonSizes); //6 elementos que tienen esa clase
 
           let size = null
 
@@ -77,36 +76,22 @@ function detail() {
               button.classList.add('div__button--active')
               size = button.textContent
               console.log(size);
-
             })
-
           })
 
           const ulButtonDiv = document.querySelector('.ul__button--div')
 
           ulButtonDiv.addEventListener(('click'), () => {
-            localStorageCart(size)
+            localStorageCart(size, divButtonSizes, productId, product.name, product.price, product.image)
           })
-
-
-
-
-
-
-
-
         }
-
       }
 
 
     } catch (error) {
       console.log(error);
     }
-
   }
-
-
 
   sectionDetail.appendChild(ul)
   ul.appendChild(li)
