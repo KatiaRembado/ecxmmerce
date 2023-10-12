@@ -6,7 +6,7 @@ function localStorageCart(size, buttons, productId, name, price, image) {
   }
 
   //obtener el carrito del localStorage y en caso que no exista vamos a crear uno
-  const carGet = localStorage.getItem('cart') //null
+  const carGet = localStorage.getItem('cart') 
   const arrayCart = JSON.parse(carGet) || []
 
   /**
@@ -18,7 +18,7 @@ function localStorageCart(size, buttons, productId, name, price, image) {
   ]
   */
 
-  const matched = arrayCart.find((product) => product.productId === productId && product.size === size) // me retorna el find el producto que cumpla con la condicion que estableci, o me devolvera undefined. 
+  const matched = arrayCart.find((product) => product.productId === productId && product.size === size) // me retorna el find del producto que cumpla con la condicion que estableci, o me devolvera undefined. 
 
   if (matched) {
 
