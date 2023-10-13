@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="./src/primary-styles/body.css">
   <link rel="stylesheet" href="./src/primary-styles/articleApi.css">
   <link rel="stylesheet" href="./src/components/ulApi/ulApi.css">
+  <link rel="stylesheet" href="./src/components/cart/cart.css">
 
 </head>
 
@@ -39,17 +40,33 @@
     </header>
 
     <section class="main__section section">
-
+    
       <article class="section__article--api article">
         <h2 class="article__h2">Nuestros productos</h2>
-
+    
         <ul id="ul__api" class="article__ul \">
           <!-- aca va el contenido de la API -->
         </ul>
-
+    
       </article>
-
+    
     </section>
+
+     <!-- cart-->
+    <section id="menu_cart" class="main__section--cart" section>
+      <i id='x' class='bx bx-x'></i>
+      <h2 class="section__h2">Carrito de compras</h2>
+      <ul class="section__ul--cart" id="cart_list">
+        <!-- insertaremos los li-->
+      </ul>
+    
+      <div class="section__div--total">
+        <h2 class="section__h2--total">Subtotal</h2>
+        <p class="section__p--total" id="sub_total"></p>
+      </div>
+    
+    </section>
+
   </main>
 
   <script type="module" src="./main.js"></script>
